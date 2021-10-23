@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "ec-canvas": "../../utils/ec-canvas/ec-canvas",
+    "select": "../../components/select/select",
+    "wind": "../../components/wind/wind",
+    "carbon": "../../components/carbon/carbon",
+    "light": "../../components/light/light",
+    "TH": "../../components/TH/TH"
+  }
+}

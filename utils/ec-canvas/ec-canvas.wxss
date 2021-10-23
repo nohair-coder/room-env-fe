@@ -1,0 +1,5 @@
+.ec-canvas {
+  margin: 10rpx auto;
+  width: 680rpx;
+  height: 480rpx;
+}

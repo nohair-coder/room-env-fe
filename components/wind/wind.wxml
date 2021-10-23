@@ -1,0 +1,4 @@
+<!-- components/wind/wind.wxml -->
+<view>
+    <ec-canvas id="mychart-dom-line" canvas-id="mychart-line" ec="{{ Wind }}"></ec-canvas>
+</view>

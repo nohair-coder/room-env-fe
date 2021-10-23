@@ -1,0 +1,20 @@
+.father{
+  width: 700rpx;
+  height: 130rpx;
+  border-radius:20rpx;
+  margin: 50rpx auto;
+  text-align: center;
+  box-shadow:2px 2px 5px #000;
+  background-color: #fbf9fe;
+  line-height: 130rpx;
+  font-size: 40rpx;
+}
+.node{
+  color:#409EFF;
+}
+.height{
+  color:#67C23A;
+}
+.low{
+  color:#F56C6C;
+}

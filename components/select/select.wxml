@@ -1,0 +1,49 @@
+<!-- components/select/select.wxml -->
+<view>
+    <view class="nodeSection">
+        <text>节点选择:</text>
+        <view class="nodeSelect">
+            <picker bindchange="bindNodeChange" value="{{nodeIndex}}" range="{{nodeArray}}">
+                <view class="picker">
+                    <text style="color:#fa531c">{{nodeArray[nodeIndex]}}</text>
+                </view>
+            </picker>
+        </view>
+    </view>
+    <view class="dateTimeSection">
+        <text class="name">开始日期：</text>
+        <view class="section">
+            <picker bindchange="bindStartDate" value="{{startDate}}" start="2010-09-01" end="{{today}}" mode="date">
+                <view class="picker">
+                    <text style="color:#fa531c">{{startDate}}</text>
+                </view>
+            </picker>
+        </view>
+        <text class="name">开始时间：</text>
+        <view class="section">
+            <picker bindchange="bindStartTime" value="{{startTime}}" mode="time">
+                <view class="picker">
+                    <text style="color:#fa531c">{{startTime}}</text>
+                </view>
+            </picker>
+        </view>
+    </view>
+    <view class="dateTimeSection">
+        <text class="name">结束日期：</text>
+        <view class="section">
+            <picker bindchange="bindEndDate" value="{{endDate}}" start="2010-09-01" end="{{today}}" mode="date">
+                <view class="picker">
+                    <text style="color:#fa531c">{{endDate}}</text>
+                </view>
+            </picker>
+        </view>
+        <text class="name">结束时间：</text>
+        <view class="section">
+            <picker bindchange="bindEndTime" value="{{endTime}}" mode="time">
+                <view class="picker">
+                    <text style="color:#fa531c">{{endTime}}</text>
+                </view>
+            </picker>
+        </view>
+    </view>
+</view>

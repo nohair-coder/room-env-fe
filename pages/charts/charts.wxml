@@ -1,0 +1,16 @@
+<!-- pages/charts/charts.wxml -->
+<view class="box1" style="height:100%;">
+    <select name="" id="" nodeArray='{{nodeArray}}' bind:getDateRange="handleDateRange"></select>
+    <view class="box" style="margin-top:50rpx;">
+        <carbon range="{{ dateTimeArray }}" carbonArray="{{ carbonArray }}" cur="{{cur}}"></carbon>
+    </view>
+    <view class="box">
+        <wind range="{{ dateTimeArray }}" windArray="{{ windArray }}" cur="{{cur}}"></wind>
+    </view>
+    <view class="box">
+        <TH range="{{ dateTimeArray }}" humidityArray="{{ humidityArray }}" temperatureArray="{{temperatureArray}}" cur="{{cur}}"></TH>
+    </view>
+    <view class="box">
+        <light range="{{ dateTimeArray }}" lightArray="{{ lightArray }}" cur="{{cur}}"></light>
+    </view>
+</view>

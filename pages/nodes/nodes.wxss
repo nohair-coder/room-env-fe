@@ -1,0 +1,53 @@
+/* pages/nodes/nodes.wxss */
+.father{
+    width: 700rpx;
+    height: 500rpx;
+    border-radius:20rpx;
+    margin: 50rpx auto;
+    text-align: center;
+    box-shadow:2px 2px 5px #000;
+    background-color: #fbf9fe;
+}
+.title{
+    position: relative;
+    top: 15rpx;
+    color:#409EFF;
+    font-size: 50rpx;
+}
+.upData{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40rpx;
+}
+.item{
+    display: flex;
+    flex-wrap: wrap;
+    width: 220rpx;
+    height: 150rpx;
+}
+.picture{
+    width: 80rpx;
+    height: 80rpx;
+    margin: auto;
+}
+.right{
+    width: 140rpx;
+    height: 150rpx;
+}
+.downData{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50rpx;
+}
+.name{
+    display: block;
+    margin-top: 30rpx;
+    font-size: 22rpx;
+    font-weight: 800;
+}
+.data{
+    display: block;
+    margin-top: 28rpx;
+}

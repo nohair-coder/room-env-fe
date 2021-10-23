@@ -1,0 +1,4 @@
+<!--components/TH/TH.wxml-->
+<view>
+    <ec-canvas id="mychart-dom-line" canvas-id="mychart-line" ec="{{ TH }}"></ec-canvas>
+</view>

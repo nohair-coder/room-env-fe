@@ -1,0 +1,16 @@
+<!-- logs.wxml -->
+<view style="height:100%;">
+  <view class="father" wx:for="{{voltage_array}}" wx:key='index'>
+      <text wx:if="{{item.status===0}}">节点 <text class="node">{{item.node}}</text> <text style="color:#F56C6C"> 已停止</text></text>
+      <text wx:else>节点 <text class="node">{{item.node}}</text> 的电池电压是 <text class="{{item.voltage>10?'height':'low'}}">{{item.voltage}}</text> V</text>
+  </view>
+  <!-- <view class="father">
+      <text>节点 <text class="node">1</text> <text style="color:#F56C6C"> 已停止</text></text>
+  </view>
+  <view class="father">
+      <text >节点 <text class="node">2</text> 的电池电压是 <text class="height">10</text> V</text>
+  </view>
+  <view class="father" >
+      <text>节点 <text class="node">3</text> 的电池电压是 <text class="low">5</text> V</text>
+  </view> -->
+</view>

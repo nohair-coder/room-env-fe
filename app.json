@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/charts/charts",
+    "pages/nodes/nodes",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#fbf9fe",
+    "navigationBarTitleText": "环境监测系统",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#cccccc",
+    "selectedColor": "#409EFF",
+    "backgroundColor": "#fbf9fe",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/nodes/nodes",
+        "text": "节点",
+        "iconPath": "images/node.png",
+        "selectedIconPath": "images/node_s.png"
+      },
+      {
+        "pagePath": "pages/charts/charts",
+        "text": "图表",
+        "iconPath": "images/chart.png",
+        "selectedIconPath": "images/chart_s.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "电池",
+        "iconPath": "images/log.png",
+        "selectedIconPath": "images/log_s.png"
+      }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

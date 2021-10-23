@@ -1,0 +1,46 @@
+<!-- pages/nodes/nodes.wxml -->
+<view style="height:100%;">
+    <view class="father" wx:for="{{env_array}}" wx:key="index">
+        <text class="title">节点:{{item.node}} <text style="color:{{item.status===0?'#F56C6C':'#67C23A'}}">{{item.status===0?'已停止':'运行中'}}</text></text>
+        <view class="upData">
+            <view class="item">
+                <image class="picture" src="../../images/data/carbon.png" mode="aspectFit"></image>
+                <view class="right">
+                    <text class="name">二氧化碳浓度</text>
+                    <text class="data">{{item.carbon}} PPM</text>
+                </view>
+            </view>
+            <view class="item">
+                <image class="picture" src="../../images/data/light.png" mode="aspectFit"></image>
+                <view class="right">
+                    <text class="name">光照强度</text>
+                    <text class="data">{{item.light}}  Lux</text>
+                </view>
+            </view>
+            <view class="item">
+                <image class="picture" src="../../images/data/wind.png" mode="aspectFit"></image>
+                <view class="right">
+                    <text class="name">风速</text>
+                    <text class="data">{{item.wind}} m/s</text>
+                </view>
+            </view>
+        </view>
+        <view class="downData">
+            <view class="item">
+                <image class="picture" src="../../images/data/t.png" mode="aspectFit"></image>
+                <view class="right">
+                    <text class="name">温度</text>
+                    <text class="data">{{item.temperature}} ℃</text>
+                </view>
+            </view>
+            <view class="item">
+                <image class="picture" src="../../images/data/h.png" mode="aspectFit"></image>
+                <view class="right">
+                    <text class="name">湿度</text>
+                    <text class="data">{{item.humidity}} %</text>
+                </view>
+            </view>
+            <view class="item"></view>
+        </view>
+    </view>
+</view>

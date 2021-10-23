@@ -1,0 +1,4 @@
+<!--components/carbon/carbon.wxml-->
+<view>
+    <ec-canvas id="mychart-dom-line" canvas-id="mychart-line" ec="{{ Carbon }}"></ec-canvas>
+</view>

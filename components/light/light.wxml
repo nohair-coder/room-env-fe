@@ -1,0 +1,4 @@
+<!--components/light/light.wxml-->
+<view>
+     <ec-canvas id="mychart-dom-line" canvas-id="mychart-line" ec="{{ Light }}"></ec-canvas>
+</view>
